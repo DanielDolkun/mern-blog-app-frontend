@@ -1,0 +1,70 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(1, 56, 158, 0.4),
+      rgba(1, 56, 158, 0.4),
+      rgba(236, 236, 235, 0.3)
+    ),
+    url(https://wallpaperaccess.com/full/4622895.jpg);
+  background-size: cover;
+}
+
+.loginTitle {
+  font-size: 50px;
+  font-family: 'Arvo', serif;
+  color: #ececeb;
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm label {
+  margin: 10px 0px;
+  font-family: 'Varela', sans-serif;
+  color: #ececeb;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: #ececeb;
+  border: none;
+}
+
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #ececeb;
+  color: #01389e;
+  font-family: 'Arvo', serif;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.loginButton:disabled {
+  color: #577ec6;
+  cursor: not-allowed;
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #ececeb;
+  color: #2e383f;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Arvo', serif;
+}

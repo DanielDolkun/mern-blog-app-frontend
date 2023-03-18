@@ -1,0 +1,71 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(1, 56, 158, 0.4),
+      rgba(1, 56, 158, 0.4),
+      rgba(236, 236, 235, 0.3)
+    ),
+    url(https://i.pinimg.com/564x/cb/ca/2f/cbca2f981f7134c4b4ed9a3556f0f257.jpg);
+  background-size: cover;
+}
+
+.registerTitle {
+  font-size: 50px;
+  font-family: 'Arvo', serif;
+  color: #ececeb;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm label {
+  margin: 10px 0px;
+  font-family: 'Varela', sans-serif;
+  color: #ececeb;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: #ececeb;
+  border: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #ececeb;
+  color: #2e383f;
+  font-family: 'Arvo', serif;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #ececeb;
+  color: #01389e;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Arvo', serif;
+}
+
+.errMsg {
+  color: tomato;
+  font-family: 'Arvo', serif;
+  margin-top: 10px;
+}
