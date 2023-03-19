@@ -12,7 +12,9 @@ export default function Home() {
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const res = await axios.get('/posts' + search)
+      const res = await axios.get(
+        'https://mern-blog-app-api-hyra.onrender.com/api/posts' + search
+      )
       setPosts(res.data)
     }
     fetchPosts()

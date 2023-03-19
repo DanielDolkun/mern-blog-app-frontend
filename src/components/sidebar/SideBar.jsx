@@ -8,7 +8,9 @@ export default function SideBar() {
 
   useEffect(() => {
     const getCats = async () => {
-      const res = await axios.get('/categories')
+      const res = await axios.get(
+        'https://mern-blog-app-api-hyra.onrender.com/api/categories'
+      )
       setCats(res.data)
     }
     getCats()
