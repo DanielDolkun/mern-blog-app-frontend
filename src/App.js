@@ -3,11 +3,10 @@ import TopBar from './components/topbar/TopBar'
 import Single from './pages/single/Single'
 import Write from './pages/write/Write'
 import Settings from './pages/settings/Settings'
-import SinglePost from './components/singlePost/SinglePost'
 import Login from './pages/login/Login'
 import Register from './pages/register/Register'
 
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useContext } from 'react'
 import { Context } from './context/Context'
 
