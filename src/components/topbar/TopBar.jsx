@@ -53,7 +53,7 @@ export default function TopBar() {
               src={
                 user.profilePic !== ''
                   ? PF + user.profilePic
-                  : 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png'
+                  : 'https://t4.ftcdn.net/jpg/01/18/03/35/360_F_118033506_uMrhnrjBWBxVE9sYGTgBht8S5liVnIeY.jpg'
               }
               alt=''
             />
