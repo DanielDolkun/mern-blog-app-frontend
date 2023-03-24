@@ -5,8 +5,7 @@
 .pubMsg {
   color: teal;
   font-family: 'Arvo', serif;
-  margin-top: 10px;
-  align-self: center;
+  margin: 10px 0 10px 150px;
 }
 
 .toHome {
