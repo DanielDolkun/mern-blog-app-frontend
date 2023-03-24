@@ -57,7 +57,7 @@ export default function Register() {
         </button>
       </form>
       <button className='registerLoginButton'>
-        <Link className='link' to='/login'>
+        <Link className='link' to='api/auth/login'>
           Login
         </Link>
       </button>
