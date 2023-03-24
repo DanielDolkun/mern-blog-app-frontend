@@ -11,7 +11,6 @@ export default function SideBar() {
         'https://mern-blog-app-api-hyra.onrender.com/api/categories'
       )
       setCats(res.data)
-      window.location.reload()
     }
     getCats()
   }, [])
@@ -34,7 +33,7 @@ export default function SideBar() {
         <span className='sidebarTitle'>Categories</span>
         <ul className='sidebarList'>
           {cats.map((c) => (
-            <Link key={new Date()} className='link' to={`/?cat=${c.name}`}>
+            <Link className='link' to={`/?cat=${c.name}`}>
               <li className='sidebarListItem'>{c.name}</li>
             </Link>
           ))}
