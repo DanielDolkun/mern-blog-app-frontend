@@ -64,7 +64,7 @@ export default function Register() {
       </button>
       {error && <span className='errMsg'>Something went wrong</span>}
       {success && (
-        <span className='errMsg'>Register successful! Please login</span>
+        <span className='succMsg'>Register successful! Please login</span>
       )}
     </div>
   )
