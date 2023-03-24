@@ -2,6 +2,17 @@
   padding-top: 50px;
 }
 
+.pubMsg {
+  color: teal;
+  font-family: 'Arvo', serif;
+  margin-top: 10px;
+}
+
+.toHome {
+  color: cornflowerblue;
+  text-decoration: dotted;
+}
+
 .writeImg {
   margin-left: 150px;
   width: 70vw;

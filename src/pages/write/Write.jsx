@@ -2,12 +2,14 @@ import { useContext, useState } from 'react'
 import './write.css'
 import { Context } from '../../context/Context'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 export default function Write() {
   const [title, setTitle] = useState('')
   const [desc, setDesc] = useState('')
   const [file, setFile] = useState(null)
   const { user } = useContext(Context)
+  const [published, setPublished] = useState(false)
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -35,11 +37,19 @@ export default function Write() {
         'https://mern-blog-app-api-hyra.onrender.com/api/posts',
         newPost
       )
-      window.location.replace('/')
+      setPublished(true)
     } catch (err) {}
   }
   return (
     <div className='write'>
+      {published && (
+        <span className='pubMsg'>
+          Published! return{' '}
+          <Link className='link toHome' to='/'>
+            Home
+          </Link>
+        </span>
+      )}
       {file && (
         <img className='writeImg' src={URL.createObjectURL(file)} alt='' />
       )}
