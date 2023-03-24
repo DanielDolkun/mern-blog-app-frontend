@@ -35,7 +35,7 @@ export default function Write() {
         'https://mern-blog-app-api-hyra.onrender.com/api/posts',
         newPost
       )
-      window.location.replace('/post/' + res.data._id)
+      window.location.replace('/')
     } catch (err) {}
   }
   return (
