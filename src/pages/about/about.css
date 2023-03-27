@@ -1,0 +1,46 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.aboutTitleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutDescContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+}
+
+.aboutSummary {
+  font-family: 'Varela', sans-serif;
+  color: #2e383f;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 3;
+}
+
+.logo {
+  width: 110px;
+}
+
+.aboutTitle {
+  font-size: 35px;
+  margin: 25px 0 25px 20px;
+  font-family: 'Lora', serif;
+  color: #01389e;
+}
+
+.aboutBlockGroup {
+  display: flex;
+  justify-content: space-around;
+}
